@@ -1,0 +1,78 @@
+html {
+    
+    border-left: 5px solid lightgray;
+}
+
+body{
+  font-family: sans-serif;
+  min-height: 100%;
+  max-width: 1000px;
+  margin: auto;
+
+}
+
+
+.header h1{
+  color: tomato;
+}
+
+.header_nav ul {
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  list-style: none;
+  margin-right: 100px;
+}
+
+.ArticleContent{
+  line-height: 1.5;
+  padding: 1.2em 0;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 2rem;
+}
+
+.ArticleContent .content {
+  
+  font-size: 2em;
+
+}
+
+.ArticleContent .content::first-letter {
+  color: lightgray;
+  font-size: 6em;
+  word-wrap: break-word;
+  float: left;
+  line-height: 1;
+  margin-right: 0.1em;
+}
+
+.ArticleContent .date {
+  width: 100%;
+  color: lightgray;
+}
+.ArticleContent .image {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.ArticleContent .Continue{
+  color: tomato;
+  text-align: right;
+  padding-bottom: 1.75em;
+}
+
+.footer_nav ul {
+  color: tomato;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  list-style: none;
+  margin-right: 100px;
+}
+
+.copywrite{
+  color: lightgray;
+  font-size: 2em;
+  padding-top: 1em;
+}
